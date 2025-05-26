@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: cursive;
+}
+/* darkmode */
+.dark-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode nav {
+  background-color: #f0f0f0;
+}
+
+.dark-mode nav ul li a {
+  color: black;
+}
+
+.dark-mode .purple,
+.dark-mode #element {
+  color: #6b21a8;
+}
+
+.dark-mode .firstsection {
+  color: black;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 2rem;
+  
+}
+
+.rightsection img{
+    width: 80%;
+}
+
+.purple{
+    color: rgb(170, 107, 228);
+}
+#element{
+    color: rgb(170, 107, 228);
+
+}
+main hr{
+    background-color: #9c97f1;
+    border: 0;
+    height: 1.2px;
+    margin: 60px 84px;  
+}
+.secondsection{
+    max-width: 80vw;
+     margin: auto; 
+     height: 80vh;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.text-grey{
+    color: grey;
+}
+.secondsection .box{
+    background: white;
+    height: 2px;
+    width: 80vw;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.bar{
+    display: none;
+}
+/* .right .mobile{
+    animation-name: active-scroll;
+    animation-timeline: scroll(y);
+}
+@keyframes active-scroll {
+    0%{
+        color: aqua;
+        border-bottom: 1px solid black;
+    }
+} */
+
+/* @media only screen and ( max-width:786px){
+    .right .mobile {
+        display: none;
+    }
+        .bar{
+            display: block;
+        }
+
+        .firstsection , .rightsection{
+            display:inline;
+            
+        }
+        
+
+    } */
+
+    @media (max-width: 480px) {
+      nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+      }
+      nav .right ul {
+        flex-direction: column;
+        margin-top: 10px;
+      }
+      nav ul li {
+        margin: 10px 0;
+      }
+      .container {
+        padding: 30px;
+        margin-top: 380px;
+        
+      }
+      h1 {
+        font-size: 32px;
+        justify-content: center;
+        display: flex;
+      }
+      h2 {
+        font-size: 22px;
+         justify-content: center;
+        display: flex;
+      }
+     
+    }

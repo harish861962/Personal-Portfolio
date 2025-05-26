@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- favicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+</head>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    }
+    body{
+        font-family: cursive;
+    }
+
+    nav{
+     position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(18, 18, 62);
+      padding: 0 40px;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+.left{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.container {
+      max-width: 800px;
+      margin: 120px auto 40px;
+      background: #ffffff;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    form button {
+      padding: 12px 24px;
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #1d4ed8;
+    }
+
+
+
+footer h4{
+      padding: 20px;
+      text-align: center;
+         
+    }
+    footer h4:hover{
+      text-shadow: 1px 0 1px red;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+      }
+
+      nav .right ul {
+        flex-direction: column;
+        margin-top: 10px;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+      }
+
+      .container {
+        padding: 180px;
+        margin-top: 140px;
+      }
+
+      h1 {
+        font-size: 32px;
+        text-align: center;
+      }
+      button{
+        display: block;
+      margin: 0 auto;
+      }
+    }
+</style>
+<body>
+    <!-- nav bar  -->
+    <header>
+        <nav>
+            <div class="left">  Harish<sup>'s</sup> Portfolio           
+            </div>
+            <div class="right">
+              <ul>
+                <li class="mobile"><a href="index.html">Home</li></a>
+                <li class="mobile"><a href="about.html">About</li></a>
+                <li class="mobile"><a href="resume.html">Resume</li></a>
+                <li class="mobile"><a href="project..html">Projects</li></a>
+                <li class="mobile"><a href="contact.html">Contact Me</li></a>
+               <!-- <li class="bar"><a href="#"><i class="fa-solid fa-bars-progress"></i></a></li> -->
+
+              </ul>  
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+    <h1>Contact Me</h1>
+    <p>If you have a project, job opportunity, or just want to say hello — feel free to send me a message!</p>
+    <form action="" method="post" >
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button >Send Message</button>
+    </form>
+  </div>
+
+    <!-- footer -->
+     
+     <footer>
+        <h4>made with <i class="fa fa-heart-o"></i> harish</h4>
+      </footer>
+</body>
+</html>

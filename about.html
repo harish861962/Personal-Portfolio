@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- favicon -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: cursive;
+      background: linear-gradient(135deg, #ece9e6, #ffffff);
+      color: #1f2937;
+      line-height: 1.6;
+      /* padding: 40px; */
+    }
+
+    nav{
+     position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(18, 18, 62);
+      padding: 0 40px;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+.left{
+    font-size: 1.5rem;
+    color: white;
+}
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+      margin-top: 120px;
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-top: 40px;
+      margin-bottom: 16px;
+      color: #374151;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #4b5563;
+    }
+
+    .skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li {
+      background: #f3f4f6;
+      color: #1f2937;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+
+    .skills li:hover {
+      background: #dbeafe;
+    }
+
+    .contact a {
+      display: inline-block;
+      color: #2563eb;
+      font-weight: 600;
+      text-decoration: none;
+      margin-right: 20px;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .contact a:hover {
+      color: #1e40af;
+    }
+
+     @media (max-width: 480px) {
+      nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+      }
+      nav .right ul {
+        flex-direction: column;
+        margin-top: 10px;
+      }
+      nav ul li {
+        margin: 10px 0;
+      }
+      .container {
+        padding: 30px;
+        margin-top: 380px;
+        
+      }
+      h1 {
+        font-size: 32px;
+        justify-content: center;
+        display: flex;
+      }
+      h2 {
+        font-size: 22px;
+         justify-content: center;
+        display: flex;
+      }
+     
+    }
+
+    footer h4{
+      padding: 20px;
+      text-align: center;
+         
+    }
+    footer h4:hover{
+      text-shadow: 1px 0 1px red;
+    }
+    
+  </style>
+</head>
+<body>
+
+   <header>
+        <nav>
+            <div class="left">  Harish<sup>'s</sup> Portfolio           
+            </div>
+            <div class="right">
+              <ul>
+                <li class="mobile"><a href="index.html">Home</li></a>
+                <li class="mobile"><a href="about.html">About</li></a>
+                <li class="mobile"><a href="resume.html">Resume</li></a>
+                <li class="mobile"><a href="project..html">Projects</li></a>
+                <li class="mobile"><a href="contact.html">Contact Me</li></a>
+               <!-- <li class="bar"><a href="#"><i class="fa-solid fa-bars-progress"></i></a></li> -->
+
+              </ul>  
+            </div>
+        </nav>
+    </header>
+
+  <div class="container">
+    <h1>About Me</h1>
+    <p>Hi, I’m <strong>Harish Saini</strong> — a passionate fresher<strong> Web Developer</strong> with a focus on building responsive and user-friendly websites. I'm currently pursuing a Bachelor of Computer Applications at Smt. Indramani Mandelia Shiksha Niketan, Pilani (Jhunjhunu), Rajasthan. I love turning ideas into real-world projects using HTML, CSS, and JavaScript, and I’m always eager to learn and grow in the tech world. </p>
+
+
+    <p>I’ve worked on <strong> Mini  Project like Portfolio , Calculator and=To-Do List </strong>, and I’m always eager to learn new tools and technologies that push my limits.</p>
+
+    
+    <p>Whether you're looking for someone to develop a responsive website, design a user-friendly websites, or collaborate on a creative project — I’d love to connect.</p>
+
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>SQl</li>
+        <li>DBMS</li>
+        
+
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h2>Let's Work Together</h2>
+      <a href="harishsaini1266@gmail.com">📧  Email Me</a>
+      <a href="https://www.linkedin.com/in/harish-saini-29608827b" target="_blank">🌐 LinkedIn</a>
+      <a href="#"><i class="fa fa-phone"></i> 8619627463</a>
+    </div>
+  </div>
+  <footer>
+        <h4>made with <i class="fa fa-heart-o"></i> harish</h4>
+      </footer>
+</body>
+</html>
